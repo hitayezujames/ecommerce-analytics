@@ -1,0 +1,16 @@
+device_type,referrer,sessions,reached_cart,reached_checkout,orders,conversion_pct,avg_order_value,revenue_per_session
+desktop,direct,6603,4507,2886,908,13.75,747.08,102.73
+mobile,search_engine,6734,4619,3007,890,13.22,782.51,103.42
+tablet,email,6722,4593,2979,882,13.12,775.88,101.8
+tablet,direct,6568,4494,2860,855,13.02,766.84,99.82
+mobile,affiliate,6691,4558,2953,862,12.88,737.62,95.03
+tablet,social,6562,4441,2909,844,12.86,732.03,94.15
+desktop,social,6850,4672,3012,879,12.83,743.7,95.43
+desktop,affiliate,6708,4537,2952,851,12.69,776.65,98.53
+tablet,search_engine,6682,4551,2966,837,12.53,760.02,95.2
+mobile,social,6665,4459,2852,835,12.53,775.07,97.1
+desktop,search_engine,6681,4529,2894,817,12.23,733.17,89.66
+mobile,email,6517,4443,2829,784,12.03,791.02,95.16
+tablet,affiliate,6645,4493,2879,795,11.96,817.78,97.84
+mobile,direct,6789,4588,2977,811,11.95,801.71,95.77
+desktop,email,6583,4468,2828,782,11.88,756.34,89.85

@@ -1,0 +1,2 @@
+source,monthly_retention,observation_months,clv_multiplier,total_clv_12m,top20pct_share_of_clv,corr_sessions_revenue,users_without_orders
+db,0.5708,2.96,2.297,5263740.68,44.0,0.0682,784

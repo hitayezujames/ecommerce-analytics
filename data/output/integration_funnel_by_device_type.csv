@@ -1,0 +1,4 @@
+device_type,s1,s2,s3,s4,s5,revenue,s2_step_pct,s3_step_pct,s4_step_pct,s5_step_pct,overall_conversion_pct,revenue_per_session
+tablet,3332,3294,2205,995,694,528688.38,98.9,66.9,45.1,69.7,20.83,158.67
+mobile,3315,3273,2153,970,675,523000.66,98.7,65.8,45.1,69.6,20.36,157.77
+desktop,3353,3308,2167,934,665,508933.09,98.7,65.5,43.1,71.2,19.83,151.78

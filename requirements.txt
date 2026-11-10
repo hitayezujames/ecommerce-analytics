@@ -1,0 +1,10 @@
+faker>=24.0
+numpy>=1.24
+pandas>=2.0
+pyspark>=3.5.3,<4.0    # needs Java 17 (or 11)
+pymongo>=4.6
+happybase>=1.2
+matplotlib>=3.8
+pyarrow>=14.0          # faster Spark -> pandas conversion
+reportlab>=4.0
+pillow>=10.0

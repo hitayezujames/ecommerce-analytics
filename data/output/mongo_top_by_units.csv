@@ -1,0 +1,11 @@
+product_id,product_name,category_id,units_sold,revenue,orders,distinct_buyers
+prod_04258,Customer-Focused Stable Array,cat_005,53,341.85,21,21
+prod_04318,Polarized Empowering Analyzer,cat_014,52,19663.28,25,25
+prod_00167,Multi-Tiered Scalable Hub,cat_014,50,2872.0,22,22
+prod_04935,Diverse Regional Attitude,cat_004,49,16908.43,24,24
+prod_00339,Innovative Mission-Critical Encryption,cat_023,48,5396.16,24,24
+prod_00578,Optimized Solution-Oriented Array,cat_005,48,22961.28,23,23
+prod_02483,Realigned Client-Driven Website,cat_010,48,7021.92,21,21
+prod_01819,Customer-Focused Bi-Directional Access,cat_015,47,11507.01,21,21
+prod_04097,Organic Real-Time Orchestration,cat_022,47,13457.98,21,21
+prod_00366,Synergized Dynamic Alliance,cat_002,46,6955.66,23,23

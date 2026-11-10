@@ -1,0 +1,48 @@
+# =====================================================================
+# HBase schema for the clickstream / time-series side of the platform
+# Run with:   hbase shell /scripts/create_schema.hbase
+#   (in Docker: docker exec -it hbase hbase shell /scripts/create_schema.hbase)
+# =====================================================================
+
+# Start clean (the HBase shell is JRuby, so plain Ruby control flow works)
+['user_sessions', 'product_metrics_daily'].each do |t|
+  if list.include?(t)
+    disable t
+    drop t
+  end
+end
+
+# ---------------------------------------------------------------------
+# Table 1: user_sessions  - one row per session, newest first per user
+#   Row key : <user_id>|<reverse_ts>|<session_id>
+#             reverse_ts = 9999999999 - epoch_seconds(start_time), zero-padded to 10 digits
+#             -> all sessions of a user are contiguous (prefix scan), newest first,
+#                and time windows become a [startRow, stopRow) range scan.
+#   CF 's'  : session metadata  (small, read on every request)
+#   CF 'pv' : page views, one column per view (qualifier = 3-digit sequence)  -> sparse/wide
+#   CF 'c'  : cart contents, one column per product_id (qualifier = product_id) -> sparse
+#   Separate CFs mean a "list my sessions" query reads only 's' files, never the
+#   large 'pv' store files.  VERSIONS=1: events are immutable.
+#   Pre-split on the user_id range (user_000000..user_009999) to avoid a single hot region.
+# ---------------------------------------------------------------------
+create 'user_sessions',
+  {NAME => 's',  VERSIONS => 1, BLOOMFILTER => 'ROW', COMPRESSION => 'GZ', IN_MEMORY => 'true'},
+  {NAME => 'pv', VERSIONS => 1, BLOOMFILTER => 'ROW', COMPRESSION => 'GZ'},
+  {NAME => 'c',  VERSIONS => 1, BLOOMFILTER => 'ROW', COMPRESSION => 'GZ'},
+  SPLITS => ['user_002000', 'user_004000', 'user_006000', 'user_008000']
+
+# ---------------------------------------------------------------------
+# Table 2: product_metrics_daily - one row per product per day
+#   Row key : <product_id>|<yyyymmdd>   -> a product's history is one contiguous range
+#   CF 'm'  : counters  views, cart_adds, purchases, units_sold, revenue_cents
+#             (stored as 8-byte longs so they can be updated atomically with INCREMENT)
+#   TTL     : 400 days - old daily metrics age out automatically.
+# ---------------------------------------------------------------------
+create 'product_metrics_daily',
+  {NAME => 'm', VERSIONS => 1, TTL => 34560000, BLOOMFILTER => 'ROW', COMPRESSION => 'GZ'},
+  SPLITS => ['prod_01000', 'prod_02000', 'prod_03000', 'prod_04000']
+
+describe 'user_sessions'
+describe 'product_metrics_daily'
+list
+exit

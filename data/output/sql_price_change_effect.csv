@@ -1,0 +1,5 @@
+last_price_move,products,avg_units_sold
+no change,1617,22.2
+price cut >5%,1223,21.88
+price rise >5%,1332,22.21
+small change (+/-5%),828,22.06

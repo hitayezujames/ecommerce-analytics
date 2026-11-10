@@ -1,0 +1,27 @@
+# Sample HBase shell queries (run: hbase shell /scripts/sample_queries.hbase)
+# Reverse timestamp = 9999999999 - epoch_seconds(start_time)
+
+# 1. All sessions of one user, newest first, metadata family only
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042|', COLUMNS => ['s'], LIMIT => 5}
+
+# 2. A user's sessions in a time window: [2026-08-01, 2026-09-01)
+#    epoch(2026-09-01)=1788220800 -> start row 9999999999-1788220800+1 = 8211779200
+#    epoch(2026-08-01)=1785542400 -> stop  row 9999999999-1785542400+1 = 8214457600
+scan 'user_sessions', {STARTROW => 'user_000042|8211779200', STOPROW => 'user_000042|8214457600', COLUMNS => ['s:start_time', 's:status']}
+
+# 3. Only converted sessions of a user (server-side filter on a metadata column)
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042|', COLUMNS => ['s:start_time','s:status'], FILTER => "SingleColumnValueFilter('s','status',=,'binary:converted')"}
+
+# 4. Page-view journey of one session (copy a row key from query 1)
+# get 'user_sessions', 'user_000042|8215893061|sess_0a1b2c3d4e', {COLUMN => 'pv'}
+
+# 5. Daily metrics of a product for August 2026
+scan 'product_metrics_daily', {STARTROW => 'prod_00123|20260801', STOPROW => 'prod_00123|20260901'}
+
+# 6. Read / increment a counter atomically
+get_counter 'product_metrics_daily', 'prod_00123|20260815', 'm:views'
+incr 'product_metrics_daily', 'prod_00123|20260815', 'm:views', 1
+
+# 7. Row counts (MapReduce-free count for small tables)
+count 'product_metrics_daily', INTERVAL => 100000
+exit

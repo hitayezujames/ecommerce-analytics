@@ -1,0 +1,11 @@
+product_id,product_name,category_id,units_sold,revenue,orders,distinct_buyers
+prod_03106,Exclusive Background Open Architecture,cat_012,45,25025.85,22,22
+prod_00578,Optimized Solution-Oriented Array,cat_005,48,22961.28,23,23
+prod_03528,Versatile Non-Volatile Standardization,cat_005,43,22433.53,20,20
+prod_01275,Automated 5Thgeneration Open System,cat_009,43,22355.27,18,18
+prod_03513,Cross-Platform Modular Portal,cat_002,41,21889.49,19,19
+prod_00516,Switchable Static Help-Desk,cat_012,43,20559.59,20,20
+prod_04661,Diverse Dedicated Definition,cat_007,38,20366.1,17,17
+prod_02588,Grass-Roots Client-Server Attitude,cat_003,38,20298.84,15,15
+prod_01886,Cloned Logistical Approach,cat_000,41,19933.38,20,20
+prod_02772,Optimized Impactful Adapter,cat_019,37,19885.65,17,17

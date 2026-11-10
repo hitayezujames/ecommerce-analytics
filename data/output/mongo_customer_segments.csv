@@ -1,0 +1,8 @@
+customers,segment,avg_orders,avg_spent,total_revenue,revenue_share_pct,avg_recency_days
+32,1 Champions,8.5,8942.84,286170.83,1.1,5.8
+943,2 Loyal,5.47,5815.85,5484343.22,20.5,11.3
+108,3 At risk (was loyal),5.48,5978.85,645715.77,2.4,40.0
+4012,4 Developing,2.9,3100.54,12439349.31,46.5,13.5
+2043,5 Lapsing,2.58,2785.93,5691656.19,21.3,48.1
+661,6 New / one-time recent,1.0,1081.49,714866.7,2.7,15.7
+1417,"7 One-time, inactive",1.0,1066.59,1511362.11,5.6,60.8

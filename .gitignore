@@ -1,0 +1,7 @@
+data/raw/
+data/processed/
+__pycache__/
+*.pyc
+spark-warehouse/
+metastore_db/
+.DS_Store

@@ -1,0 +1,25 @@
+{
+  "users_last_active_before_registration": 0,
+  "users_raw": 10000,
+  "products_missing_subcategory": 0,
+  "sessions_duration_mismatch": 0,
+  "transactions_subtotal_mismatch": 0,
+  "transactions_total_mismatch": 0,
+  "transactions_unknown_user": 0,
+  "order_lines_unknown_product": 0,
+  "sessions_unknown_user": 0,
+  "converted_sessions_without_transaction": 7740,
+  "inactive_products_sold_lines": 0,
+  "rows_written": {
+    "dim_users": 10000,
+    "dim_categories": 25,
+    "dim_subcategories": 109,
+    "dim_products": 5000,
+    "product_price_history": 10062,
+    "fact_sessions": 100000,
+    "fact_page_views": 999527,
+    "fact_cart_items": 103939,
+    "fact_transactions": 25000,
+    "fact_transaction_items": 55199
+  }
+}

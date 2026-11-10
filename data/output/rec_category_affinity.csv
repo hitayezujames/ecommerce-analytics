@@ -1,0 +1,301 @@
+product_b,product_a,pair_count,count_a,count_b,support,confidence_a_to_b,confidence_b_to_a,lift,name_a,name_b
+cat_010,cat_006,505,1822,2082,0.054796,0.2772,0.2426,1.227,"Ellis, Baker and Wright",Burns-Rodriguez
+cat_024,cat_014,540,1977,2059,0.058594,0.2731,0.2623,1.223,"Anderson, Walls and Duncan","Patterson, Smith and Jones"
+cat_003,cat_002,463,1939,1802,0.050239,0.2388,0.2569,1.221,James LLC,Bush Inc
+cat_015,cat_002,489,1939,1929,0.05306,0.2522,0.2535,1.205,James LLC,Owens-Daniel
+cat_009,cat_000,504,2010,1925,0.054688,0.2507,0.2618,1.2,"Rodriguez, Figueroa and Sanchez",Skinner-Romero
+cat_022,cat_012,462,1962,1812,0.05013,0.2355,0.255,1.198,Carney-Santos,Preston Ltd
+cat_007,cat_004,540,2013,2063,0.058594,0.2683,0.2618,1.198,Kelly-Santiago,"Moore, Becker and Carlson"
+cat_019,cat_012,409,1962,1608,0.044379,0.2085,0.2544,1.195,Carney-Santos,Powell PLC
+cat_019,cat_017,418,2004,1608,0.045356,0.2086,0.26,1.195,Hancock Inc,Powell PLC
+cat_022,cat_003,423,1802,1812,0.045898,0.2347,0.2334,1.194,Bush Inc,Preston Ltd
+cat_022,cat_008,467,1989,1812,0.050673,0.2348,0.2577,1.194,Rodriguez-Graham,Preston Ltd
+cat_021,cat_001,543,1937,2164,0.058919,0.2803,0.2509,1.194,Baldwin Ltd,Mitchell-Kim
+cat_016,cat_015,413,1929,1656,0.044813,0.2141,0.2494,1.192,Owens-Daniel,Wright-Leblanc
+cat_020,cat_008,482,1989,1877,0.0523,0.2423,0.2568,1.19,Rodriguez-Graham,"Brewer, Bryant and Hickman"
+cat_014,cat_006,464,1822,1977,0.050347,0.2547,0.2347,1.187,"Ellis, Baker and Wright","Anderson, Walls and Duncan"
+cat_011,cat_009,441,1925,1778,0.047852,0.2291,0.248,1.187,Skinner-Romero,Spence PLC
+cat_013,cat_002,473,1939,1894,0.051324,0.2439,0.2497,1.187,James LLC,Smith Ltd
+cat_011,cat_000,460,2010,1778,0.049913,0.2289,0.2587,1.186,"Rodriguez, Figueroa and Sanchez",Spence PLC
+cat_021,cat_015,537,1929,2164,0.058268,0.2784,0.2482,1.186,Owens-Daniel,Mitchell-Kim
+cat_023,cat_022,436,1812,1869,0.047309,0.2406,0.2333,1.186,Preston Ltd,King-Odonnell
+cat_023,cat_003,433,1802,1869,0.046984,0.2403,0.2317,1.185,Bush Inc,King-Odonnell
+cat_016,cat_012,417,1962,1656,0.045247,0.2125,0.2518,1.183,Carney-Santos,Wright-Leblanc
+cat_010,cat_002,518,1939,2082,0.056207,0.2671,0.2488,1.183,James LLC,Burns-Rodriguez
+cat_019,cat_004,414,2013,1608,0.044922,0.2057,0.2575,1.179,Kelly-Santiago,Powell PLC
+cat_022,cat_007,478,2063,1812,0.051866,0.2317,0.2638,1.178,"Moore, Becker and Carlson",Preston Ltd
+cat_007,cat_000,529,2010,2063,0.0574,0.2632,0.2564,1.176,"Rodriguez, Figueroa and Sanchez","Moore, Becker and Carlson"
+cat_013,cat_001,468,1937,1894,0.050781,0.2416,0.2471,1.176,Baldwin Ltd,Smith Ltd
+cat_016,cat_014,417,1977,1656,0.045247,0.2109,0.2518,1.174,"Anderson, Walls and Duncan",Wright-Leblanc
+cat_011,cat_002,439,1939,1778,0.047635,0.2264,0.2469,1.174,James LLC,Spence PLC
+cat_017,cat_015,492,1929,2004,0.053385,0.2551,0.2455,1.173,Owens-Daniel,Hancock Inc
+cat_018,cat_017,459,2004,1799,0.049805,0.229,0.2551,1.173,Hancock Inc,Phillips Inc
+cat_012,cat_007,515,2063,1962,0.055881,0.2496,0.2625,1.173,"Moore, Becker and Carlson",Carney-Santos
+cat_016,cat_008,418,1989,1656,0.045356,0.2102,0.2524,1.17,Rodriguez-Graham,Wright-Leblanc
+cat_023,cat_014,469,1977,1869,0.05089,0.2372,0.2509,1.17,"Anderson, Walls and Duncan",King-Odonnell
+cat_012,cat_003,449,1802,1962,0.04872,0.2492,0.2288,1.17,Bush Inc,Carney-Santos
+cat_022,cat_010,479,2082,1812,0.051975,0.2301,0.2643,1.17,Burns-Rodriguez,Preston Ltd
+cat_021,cat_010,572,2082,2164,0.062066,0.2747,0.2643,1.17,Burns-Rodriguez,Mitchell-Kim
+cat_015,cat_011,435,1778,1929,0.047201,0.2447,0.2255,1.169,Spence PLC,Owens-Daniel
+cat_019,cat_018,367,1799,1608,0.039822,0.204,0.2282,1.169,Phillips Inc,Powell PLC
+cat_006,cat_005,493,2134,1822,0.053494,0.231,0.2706,1.169,Cameron-Parsons,"Ellis, Baker and Wright"
+cat_021,cat_017,550,2004,2164,0.059679,0.2745,0.2542,1.169,Hancock Inc,Mitchell-Kim
+cat_005,cat_004,545,2013,2134,0.059136,0.2707,0.2554,1.169,Kelly-Santiago,Cameron-Parsons
+cat_009,cat_001,473,1937,1925,0.051324,0.2442,0.2457,1.169,Baldwin Ltd,Skinner-Romero
+cat_020,cat_009,458,1925,1877,0.049696,0.2379,0.244,1.168,Skinner-Romero,"Brewer, Bryant and Hickman"
+cat_019,cat_013,386,1894,1608,0.041884,0.2038,0.24,1.168,Smith Ltd,Powell PLC
+cat_010,cat_000,530,2010,2082,0.057509,0.2637,0.2546,1.167,"Rodriguez, Figueroa and Sanchez",Burns-Rodriguez
+cat_015,cat_000,491,2010,1929,0.053277,0.2443,0.2545,1.167,"Rodriguez, Figueroa and Sanchez",Owens-Daniel
+cat_023,cat_009,455,1925,1869,0.049371,0.2364,0.2434,1.166,Skinner-Romero,King-Odonnell
+cat_023,cat_012,464,1962,1869,0.050347,0.2365,0.2483,1.166,Carney-Santos,King-Odonnell
+cat_019,cat_002,394,1939,1608,0.042752,0.2032,0.245,1.165,James LLC,Powell PLC
+cat_020,cat_016,393,1656,1877,0.042643,0.2373,0.2094,1.165,Wright-Leblanc,"Brewer, Bryant and Hickman"
+cat_014,cat_007,515,2063,1977,0.055881,0.2496,0.2605,1.164,"Moore, Becker and Carlson","Anderson, Walls and Duncan"
+cat_016,cat_011,372,1778,1656,0.040365,0.2092,0.2246,1.164,Spence PLC,Wright-Leblanc
+cat_015,cat_004,490,2013,1929,0.053168,0.2434,0.254,1.163,Kelly-Santiago,Owens-Daniel
+cat_018,cat_003,409,1802,1799,0.044379,0.227,0.2273,1.163,Bush Inc,Phillips Inc
+cat_016,cat_000,420,2010,1656,0.045573,0.209,0.2536,1.163,"Rodriguez, Figueroa and Sanchez",Wright-Leblanc
+cat_014,cat_003,449,1802,1977,0.04872,0.2492,0.2271,1.162,Bush Inc,"Anderson, Walls and Duncan"
+cat_018,cat_002,440,1939,1799,0.047743,0.2269,0.2446,1.162,James LLC,Phillips Inc
+cat_008,cat_006,457,1822,1989,0.049588,0.2508,0.2298,1.162,"Ellis, Baker and Wright",Rodriguez-Graham
+cat_019,cat_000,407,2010,1608,0.044162,0.2025,0.2531,1.161,"Rodriguez, Figueroa and Sanchez",Powell PLC
+cat_024,cat_022,470,1812,2059,0.050998,0.2594,0.2283,1.161,Preston Ltd,"Patterson, Smith and Jones"
+cat_023,cat_001,456,1937,1869,0.049479,0.2354,0.244,1.161,Baldwin Ltd,King-Odonnell
+cat_017,cat_016,418,1656,2004,0.045356,0.2524,0.2086,1.161,Wright-Leblanc,Hancock Inc
+cat_016,cat_002,404,1939,1656,0.043837,0.2084,0.244,1.16,James LLC,Wright-Leblanc
+cat_017,cat_012,495,1962,2004,0.053711,0.2523,0.247,1.16,Carney-Santos,Hancock Inc
+cat_013,cat_011,424,1778,1894,0.046007,0.2385,0.2239,1.16,Spence PLC,Smith Ltd
+cat_003,cat_001,439,1937,1802,0.047635,0.2266,0.2436,1.159,Baldwin Ltd,Bush Inc
+cat_002,cat_000,490,2010,1939,0.053168,0.2438,0.2527,1.159,"Rodriguez, Figueroa and Sanchez",James LLC
+cat_012,cat_009,475,1925,1962,0.051541,0.2468,0.2421,1.159,Skinner-Romero,Carney-Santos
+cat_015,cat_008,482,1989,1929,0.0523,0.2423,0.2499,1.158,Rodriguez-Graham,Owens-Daniel
+cat_021,cat_008,541,1989,2164,0.058702,0.272,0.25,1.158,Rodriguez-Graham,Mitchell-Kim
+cat_015,cat_012,475,1962,1929,0.051541,0.2421,0.2462,1.157,Carney-Santos,Owens-Daniel
+cat_018,cat_012,443,1962,1799,0.048069,0.2258,0.2462,1.157,Carney-Santos,Phillips Inc
+cat_024,cat_004,520,2013,2059,0.056424,0.2583,0.2525,1.156,Kelly-Santiago,"Patterson, Smith and Jones"
+cat_013,cat_005,507,2134,1894,0.055013,0.2376,0.2677,1.156,Cameron-Parsons,Smith Ltd
+cat_019,cat_015,389,1929,1608,0.042209,0.2017,0.2419,1.156,Owens-Daniel,Powell PLC
+cat_022,cat_000,457,2010,1812,0.049588,0.2274,0.2522,1.156,"Rodriguez, Figueroa and Sanchez",Preston Ltd
+cat_020,cat_012,462,1962,1877,0.05013,0.2355,0.2461,1.156,Carney-Santos,"Brewer, Bryant and Hickman"
+cat_009,cat_007,498,2063,1925,0.054036,0.2414,0.2587,1.156,"Moore, Becker and Carlson",Skinner-Romero
+cat_021,cat_011,482,1778,2164,0.0523,0.2711,0.2227,1.155,Spence PLC,Mitchell-Kim
+cat_022,cat_017,455,2004,1812,0.049371,0.227,0.2511,1.155,Hancock Inc,Preston Ltd
+cat_010,cat_008,519,1989,2082,0.056315,0.2609,0.2493,1.155,Rodriguez-Graham,Burns-Rodriguez
+cat_005,cat_000,537,2010,2134,0.058268,0.2672,0.2516,1.154,"Rodriguez, Figueroa and Sanchez",Cameron-Parsons
+cat_008,cat_007,514,2063,1989,0.055773,0.2492,0.2584,1.154,"Moore, Becker and Carlson",Rodriguez-Graham
+cat_024,cat_018,464,1799,2059,0.050347,0.2579,0.2254,1.154,Phillips Inc,"Patterson, Smith and Jones"
+cat_019,cat_014,398,1977,1608,0.043186,0.2013,0.2475,1.154,"Anderson, Walls and Duncan",Powell PLC
+cat_020,cat_015,453,1929,1877,0.049154,0.2348,0.2413,1.153,Owens-Daniel,"Brewer, Bryant and Hickman"
+cat_021,cat_012,531,1962,2164,0.057617,0.2706,0.2454,1.153,Carney-Santos,Mitchell-Kim
+cat_021,cat_003,488,1802,2164,0.052951,0.2708,0.2255,1.153,Bush Inc,Mitchell-Kim
+cat_022,cat_018,408,1799,1812,0.044271,0.2268,0.2252,1.153,Phillips Inc,Preston Ltd
+cat_019,cat_007,415,2063,1608,0.04503,0.2012,0.2581,1.153,"Moore, Becker and Carlson",Powell PLC
+cat_005,cat_003,481,1802,2134,0.052192,0.2669,0.2254,1.153,Bush Inc,Cameron-Parsons
+cat_011,cat_003,401,1802,1778,0.043511,0.2225,0.2255,1.153,Bush Inc,Spence PLC
+cat_022,cat_013,429,1894,1812,0.046549,0.2265,0.2368,1.152,Smith Ltd,Preston Ltd
+cat_020,cat_000,471,2010,1877,0.051107,0.2343,0.2509,1.151,"Rodriguez, Figueroa and Sanchez","Brewer, Bryant and Hickman"
+cat_022,cat_019,364,1608,1812,0.039497,0.2264,0.2009,1.151,Powell PLC,Preston Ltd
+cat_018,cat_008,447,1989,1799,0.048503,0.2247,0.2485,1.151,Rodriguez-Graham,Phillips Inc
+cat_023,cat_021,505,2164,1869,0.054796,0.2334,0.2702,1.151,Mitchell-Kim,King-Odonnell
+cat_017,cat_006,456,1822,2004,0.049479,0.2503,0.2275,1.151,"Ellis, Baker and Wright",Hancock Inc
+cat_019,cat_003,362,1802,1608,0.03928,0.2009,0.2251,1.151,Bush Inc,Powell PLC
+cat_022,cat_001,438,1937,1812,0.047526,0.2261,0.2417,1.15,Baldwin Ltd,Preston Ltd
+cat_024,cat_003,463,1802,2059,0.050239,0.2569,0.2249,1.15,Bush Inc,"Patterson, Smith and Jones"
+cat_010,cat_003,468,1802,2082,0.050781,0.2597,0.2248,1.15,Bush Inc,Burns-Rodriguez
+cat_006,cat_001,440,1937,1822,0.047743,0.2272,0.2415,1.149,Baldwin Ltd,"Ellis, Baker and Wright"
+cat_012,cat_005,522,2134,1962,0.056641,0.2446,0.2661,1.149,Cameron-Parsons,Carney-Santos
+cat_008,cat_002,481,1939,1989,0.052192,0.2481,0.2418,1.149,James LLC,Rodriguez-Graham
+cat_007,cat_001,498,1937,2063,0.054036,0.2571,0.2414,1.149,Baldwin Ltd,"Moore, Becker and Carlson"
+cat_013,cat_003,425,1802,1894,0.046115,0.2358,0.2244,1.148,Bush Inc,Smith Ltd
+cat_013,cat_010,491,2082,1894,0.053277,0.2358,0.2592,1.148,Burns-Rodriguez,Smith Ltd
+cat_019,cat_008,398,1989,1608,0.043186,0.2001,0.2475,1.147,Rodriguez-Graham,Powell PLC
+cat_012,cat_006,445,1822,1962,0.048286,0.2442,0.2268,1.147,"Ellis, Baker and Wright",Carney-Santos
+cat_005,cat_001,514,1937,2134,0.055773,0.2654,0.2409,1.146,Baldwin Ltd,Cameron-Parsons
+cat_023,cat_010,484,2082,1869,0.052517,0.2325,0.259,1.146,Burns-Rodriguez,King-Odonnell
+cat_002,cat_001,467,1937,1939,0.050673,0.2411,0.2408,1.146,Baldwin Ltd,James LLC
+cat_009,cat_008,476,1989,1925,0.051649,0.2393,0.2473,1.146,Rodriguez-Graham,Skinner-Romero
+cat_013,cat_012,462,1962,1894,0.05013,0.2355,0.2439,1.146,Carney-Santos,Smith Ltd
+cat_005,cat_002,514,1939,2134,0.055773,0.2651,0.2409,1.145,James LLC,Cameron-Parsons
+cat_014,cat_013,465,1894,1977,0.050456,0.2455,0.2352,1.144,Smith Ltd,"Anderson, Walls and Duncan"
+cat_013,cat_007,485,2063,1894,0.052626,0.2351,0.2561,1.144,"Moore, Becker and Carlson",Smith Ltd
+cat_019,cat_011,355,1778,1608,0.03852,0.1997,0.2208,1.144,Spence PLC,Powell PLC
+cat_020,cat_018,419,1799,1877,0.045464,0.2329,0.2232,1.144,Phillips Inc,"Brewer, Bryant and Hickman"
+cat_020,cat_003,420,1802,1877,0.045573,0.2331,0.2238,1.144,Bush Inc,"Brewer, Bryant and Hickman"
+cat_012,cat_011,433,1778,1962,0.046984,0.2435,0.2207,1.144,Spence PLC,Carney-Santos
+cat_018,cat_001,432,1937,1799,0.046875,0.223,0.2401,1.143,Baldwin Ltd,Phillips Inc
+cat_018,cat_014,441,1977,1799,0.047852,0.2231,0.2451,1.143,"Anderson, Walls and Duncan",Phillips Inc
+cat_010,cat_009,497,1925,2082,0.053928,0.2582,0.2387,1.143,Skinner-Romero,Burns-Rodriguez
+cat_020,cat_002,451,1939,1877,0.048937,0.2326,0.2403,1.142,James LLC,"Brewer, Bryant and Hickman"
+cat_014,cat_005,523,2134,1977,0.056749,0.2451,0.2645,1.142,Cameron-Parsons,"Anderson, Walls and Duncan"
+cat_015,cat_007,493,2063,1929,0.053494,0.239,0.2556,1.142,"Moore, Becker and Carlson",Owens-Daniel
+cat_011,cat_008,438,1989,1778,0.047526,0.2202,0.2463,1.141,Rodriguez-Graham,Spence PLC
+cat_020,cat_005,496,2134,1877,0.053819,0.2324,0.2643,1.141,Cameron-Parsons,"Brewer, Bryant and Hickman"
+cat_022,cat_011,399,1778,1812,0.043294,0.2244,0.2202,1.141,Spence PLC,Preston Ltd
+cat_007,cat_002,495,1939,2063,0.053711,0.2553,0.2399,1.14,James LLC,"Moore, Becker and Carlson"
+cat_021,cat_007,552,2063,2164,0.059896,0.2676,0.2551,1.14,"Moore, Becker and Carlson",Mitchell-Kim
+cat_022,cat_005,478,2134,1812,0.051866,0.224,0.2638,1.139,Cameron-Parsons,Preston Ltd
+cat_004,cat_001,482,1937,2013,0.0523,0.2488,0.2394,1.139,Baldwin Ltd,Kelly-Santiago
+cat_020,cat_011,412,1778,1877,0.044705,0.2317,0.2195,1.138,Spence PLC,"Brewer, Bryant and Hickman"
+cat_006,cat_002,436,1939,1822,0.047309,0.2249,0.2393,1.137,James LLC,"Ellis, Baker and Wright"
+cat_024,cat_007,524,2063,2059,0.056858,0.254,0.2545,1.137,"Moore, Becker and Carlson","Patterson, Smith and Jones"
+cat_003,cat_000,447,2010,1802,0.048503,0.2224,0.2481,1.137,"Rodriguez, Figueroa and Sanchez",Bush Inc
+cat_021,cat_016,442,1656,2164,0.04796,0.2669,0.2043,1.137,Wright-Leblanc,Mitchell-Kim
+cat_007,cat_005,543,2134,2063,0.058919,0.2545,0.2632,1.137,Cameron-Parsons,"Moore, Becker and Carlson"
+cat_022,cat_004,450,2013,1812,0.048828,0.2235,0.2483,1.137,Kelly-Santiago,Preston Ltd
+cat_021,cat_006,486,1822,2164,0.052734,0.2667,0.2246,1.136,"Ellis, Baker and Wright",Mitchell-Kim
+cat_018,cat_013,420,1894,1799,0.045573,0.2218,0.2335,1.136,Smith Ltd,Phillips Inc
+cat_004,cat_003,447,1802,2013,0.048503,0.2481,0.2221,1.136,Bush Inc,Kelly-Santiago
+cat_019,cat_006,361,1822,1608,0.039171,0.1981,0.2245,1.136,"Ellis, Baker and Wright",Powell PLC
+cat_022,cat_006,407,1822,1812,0.044162,0.2234,0.2246,1.136,"Ellis, Baker and Wright",Preston Ltd
+cat_021,cat_004,537,2013,2164,0.058268,0.2668,0.2482,1.136,Kelly-Santiago,Mitchell-Kim
+cat_023,cat_018,414,1799,1869,0.044922,0.2301,0.2215,1.135,Phillips Inc,King-Odonnell
+cat_015,cat_005,507,2134,1929,0.055013,0.2376,0.2628,1.135,Cameron-Parsons,Owens-Daniel
+cat_017,cat_014,488,1977,2004,0.052951,0.2468,0.2435,1.135,"Anderson, Walls and Duncan",Hancock Inc
+cat_024,cat_009,488,1925,2059,0.052951,0.2535,0.237,1.135,Skinner-Romero,"Patterson, Smith and Jones"
+cat_019,cat_001,383,1937,1608,0.041558,0.1977,0.2382,1.133,Baldwin Ltd,Powell PLC
+cat_017,cat_003,444,1802,2004,0.048177,0.2464,0.2216,1.133,Bush Inc,Hancock Inc
+cat_021,cat_009,512,1925,2164,0.055556,0.266,0.2366,1.133,Skinner-Romero,Mitchell-Kim
+cat_024,cat_001,490,1937,2059,0.053168,0.253,0.238,1.132,Baldwin Ltd,"Patterson, Smith and Jones"
+cat_016,cat_005,434,2134,1656,0.047092,0.2034,0.2621,1.132,Cameron-Parsons,Wright-Leblanc
+cat_009,cat_005,504,2134,1925,0.054688,0.2362,0.2618,1.131,Cameron-Parsons,Skinner-Romero
+cat_014,cat_011,431,1778,1977,0.046766,0.2424,0.218,1.13,Spence PLC,"Anderson, Walls and Duncan"
+cat_021,cat_005,566,2134,2164,0.061415,0.2652,0.2616,1.13,Cameron-Parsons,Mitchell-Kim
+cat_014,cat_008,482,1989,1977,0.0523,0.2423,0.2438,1.13,Rodriguez-Graham,"Anderson, Walls and Duncan"
+cat_024,cat_017,506,2004,2059,0.054905,0.2525,0.2458,1.13,Hancock Inc,"Patterson, Smith and Jones"
+cat_020,cat_004,463,2013,1877,0.050239,0.23,0.2467,1.129,Kelly-Santiago,"Brewer, Bryant and Hickman"
+cat_008,cat_001,472,1937,1989,0.051215,0.2437,0.2373,1.129,Baldwin Ltd,Rodriguez-Graham
+cat_013,cat_004,467,2013,1894,0.050673,0.232,0.2466,1.129,Kelly-Santiago,Smith Ltd
+cat_015,cat_006,430,1822,1929,0.046658,0.236,0.2229,1.128,"Ellis, Baker and Wright",Owens-Daniel
+cat_013,cat_009,446,1925,1894,0.048394,0.2317,0.2355,1.127,Skinner-Romero,Smith Ltd
+cat_015,cat_009,454,1925,1929,0.049262,0.2358,0.2354,1.127,Skinner-Romero,Owens-Daniel
+cat_018,cat_016,364,1656,1799,0.039497,0.2198,0.2023,1.126,Wright-Leblanc,Phillips Inc
+cat_018,cat_015,424,1929,1799,0.046007,0.2198,0.2357,1.126,Owens-Daniel,Phillips Inc
+cat_013,cat_000,465,2010,1894,0.050456,0.2313,0.2455,1.126,"Rodriguez, Figueroa and Sanchez",Smith Ltd
+cat_017,cat_007,505,2063,2004,0.054796,0.2448,0.252,1.126,"Moore, Becker and Carlson",Hancock Inc
+cat_023,cat_020,428,1877,1869,0.046441,0.228,0.229,1.124,"Brewer, Bryant and Hickman",King-Odonnell
+cat_015,cat_010,490,2082,1929,0.053168,0.2354,0.254,1.124,Burns-Rodriguez,Owens-Daniel
+cat_024,cat_002,487,1939,2059,0.052843,0.2512,0.2365,1.124,James LLC,"Patterson, Smith and Jones"
+cat_014,cat_010,502,2082,1977,0.05447,0.2411,0.2539,1.124,Burns-Rodriguez,"Anderson, Walls and Duncan"
+cat_021,cat_019,424,1608,2164,0.046007,0.2637,0.1959,1.123,Powell PLC,Mitchell-Kim
+cat_017,cat_005,521,2134,2004,0.056532,0.2441,0.26,1.123,Cameron-Parsons,Hancock Inc
+cat_024,cat_021,543,2164,2059,0.058919,0.2509,0.2637,1.123,Mitchell-Kim,"Patterson, Smith and Jones"
+cat_024,cat_023,469,1869,2059,0.05089,0.2509,0.2278,1.123,King-Odonnell,"Patterson, Smith and Jones"
+cat_022,cat_002,428,1939,1812,0.046441,0.2207,0.2362,1.123,James LLC,Preston Ltd
+cat_012,cat_001,463,1937,1962,0.050239,0.239,0.236,1.123,Baldwin Ltd,Carney-Santos
+cat_014,cat_004,485,2013,1977,0.052626,0.2409,0.2453,1.123,Kelly-Santiago,"Anderson, Walls and Duncan"
+cat_011,cat_007,447,2063,1778,0.048503,0.2167,0.2514,1.123,"Moore, Becker and Carlson",Spence PLC
+cat_022,cat_009,425,1925,1812,0.046115,0.2208,0.2345,1.123,Skinner-Romero,Preston Ltd
+cat_024,cat_008,499,1989,2059,0.054145,0.2509,0.2424,1.123,Rodriguez-Graham,"Patterson, Smith and Jones"
+cat_016,cat_009,388,1925,1656,0.042101,0.2016,0.2343,1.122,Skinner-Romero,Wright-Leblanc
+cat_017,cat_002,473,1939,2004,0.051324,0.2439,0.236,1.122,James LLC,Hancock Inc
+cat_018,cat_006,399,1822,1799,0.043294,0.219,0.2218,1.122,"Ellis, Baker and Wright",Phillips Inc
+cat_008,cat_005,516,2134,1989,0.05599,0.2418,0.2594,1.12,Cameron-Parsons,Rodriguez-Graham
+cat_004,cat_002,474,1939,2013,0.051432,0.2445,0.2355,1.119,James LLC,Kelly-Santiago
+cat_016,cat_001,389,1937,1656,0.042209,0.2008,0.2349,1.118,Baldwin Ltd,Wright-Leblanc
+cat_007,cat_003,451,1802,2063,0.048937,0.2503,0.2186,1.118,Bush Inc,"Moore, Becker and Carlson"
+cat_016,cat_004,404,2013,1656,0.043837,0.2007,0.244,1.117,Kelly-Santiago,Wright-Leblanc
+cat_010,cat_001,489,1937,2082,0.05306,0.2525,0.2349,1.117,Baldwin Ltd,Burns-Rodriguez
+cat_017,cat_004,489,2013,2004,0.05306,0.2429,0.244,1.117,Kelly-Santiago,Hancock Inc
+cat_023,cat_016,375,1656,1869,0.04069,0.2264,0.2006,1.117,Wright-Leblanc,King-Odonnell
+cat_023,cat_002,439,1939,1869,0.047635,0.2264,0.2349,1.116,James LLC,King-Odonnell
+cat_024,cat_011,443,1778,2059,0.048069,0.2492,0.2152,1.115,Spence PLC,"Patterson, Smith and Jones"
+cat_017,cat_013,459,1894,2004,0.049805,0.2423,0.229,1.114,Smith Ltd,Hancock Inc
+cat_013,cat_006,417,1822,1894,0.045247,0.2289,0.2202,1.114,"Ellis, Baker and Wright",Smith Ltd
+cat_021,cat_000,526,2010,2164,0.057075,0.2617,0.2431,1.114,"Rodriguez, Figueroa and Sanchez",Mitchell-Kim
+cat_015,cat_003,420,1802,1929,0.045573,0.2331,0.2177,1.114,Bush Inc,Owens-Daniel
+cat_010,cat_007,519,2063,2082,0.056315,0.2516,0.2493,1.114,"Moore, Becker and Carlson",Burns-Rodriguez
+cat_012,cat_004,477,2013,1962,0.051758,0.237,0.2431,1.113,Kelly-Santiago,Carney-Santos
+cat_022,cat_015,422,1929,1812,0.04579,0.2188,0.2329,1.113,Owens-Daniel,Preston Ltd
+cat_023,cat_006,411,1822,1869,0.044596,0.2256,0.2199,1.112,"Ellis, Baker and Wright",King-Odonnell
+cat_016,cat_003,360,1802,1656,0.039063,0.1998,0.2174,1.112,Bush Inc,Wright-Leblanc
+cat_007,cat_006,453,1822,2063,0.049154,0.2486,0.2196,1.111,"Ellis, Baker and Wright","Moore, Becker and Carlson"
+cat_024,cat_012,487,1962,2059,0.052843,0.2482,0.2365,1.111,Carney-Santos,"Patterson, Smith and Jones"
+cat_023,cat_007,465,2063,1869,0.050456,0.2254,0.2488,1.111,"Moore, Becker and Carlson",King-Odonnell
+cat_023,cat_004,453,2013,1869,0.049154,0.225,0.2424,1.11,Kelly-Santiago,King-Odonnell
+cat_012,cat_000,475,2010,1962,0.051541,0.2363,0.2421,1.11,"Rodriguez, Figueroa and Sanchez",Carney-Santos
+cat_023,cat_017,451,2004,1869,0.048937,0.225,0.2413,1.11,Hancock Inc,King-Odonnell
+cat_024,cat_006,452,1822,2059,0.049045,0.2481,0.2195,1.11,"Ellis, Baker and Wright","Patterson, Smith and Jones"
+cat_014,cat_000,478,2010,1977,0.051866,0.2378,0.2418,1.109,"Rodriguez, Figueroa and Sanchez","Anderson, Walls and Duncan"
+cat_017,cat_010,502,2082,2004,0.05447,0.2411,0.2505,1.109,Burns-Rodriguez,Hancock Inc
+cat_019,cat_016,320,1656,1608,0.034722,0.1932,0.199,1.108,Wright-Leblanc,Powell PLC
+cat_009,cat_004,466,2013,1925,0.050564,0.2315,0.2421,1.108,Kelly-Santiago,Skinner-Romero
+cat_009,cat_003,416,1802,1925,0.045139,0.2309,0.2161,1.105,Bush Inc,Skinner-Romero
+cat_024,cat_000,496,2010,2059,0.053819,0.2468,0.2409,1.105,"Rodriguez, Figueroa and Sanchez","Patterson, Smith and Jones"
+cat_021,cat_020,487,1877,2164,0.052843,0.2595,0.225,1.105,"Brewer, Bryant and Hickman",Mitchell-Kim
+cat_018,cat_007,445,2063,1799,0.048286,0.2157,0.2474,1.105,"Moore, Becker and Carlson",Phillips Inc
+cat_023,cat_011,398,1778,1869,0.043186,0.2238,0.2129,1.104,Spence PLC,King-Odonnell
+cat_021,cat_013,491,1894,2164,0.053277,0.2592,0.2269,1.104,Smith Ltd,Mitchell-Kim
+cat_020,cat_017,450,2004,1877,0.048828,0.2246,0.2397,1.103,Hancock Inc,"Brewer, Bryant and Hickman"
+cat_013,cat_008,451,1989,1894,0.048937,0.2267,0.2381,1.103,Rodriguez-Graham,Smith Ltd
+cat_017,cat_001,464,1937,2004,0.050347,0.2395,0.2315,1.102,Baldwin Ltd,Hancock Inc
+cat_014,cat_012,464,1962,1977,0.050347,0.2365,0.2347,1.102,Carney-Santos,"Anderson, Walls and Duncan"
+cat_012,cat_010,488,2082,1962,0.052951,0.2344,0.2487,1.101,Burns-Rodriguez,Carney-Santos
+cat_010,cat_005,531,2134,2082,0.057617,0.2488,0.255,1.101,Cameron-Parsons,Burns-Rodriguez
+cat_021,cat_014,511,1977,2164,0.055447,0.2585,0.2361,1.101,"Anderson, Walls and Duncan",Mitchell-Kim
+cat_024,cat_013,466,1894,2059,0.050564,0.246,0.2263,1.101,Smith Ltd,"Patterson, Smith and Jones"
+cat_017,cat_009,460,1925,2004,0.049913,0.239,0.2295,1.099,Skinner-Romero,Hancock Inc
+cat_009,cat_002,445,1939,1925,0.048286,0.2295,0.2312,1.099,James LLC,Skinner-Romero
+cat_019,cat_010,399,2082,1608,0.043294,0.1916,0.2481,1.098,Burns-Rodriguez,Powell PLC
+cat_023,cat_019,358,1608,1869,0.038845,0.2226,0.1915,1.098,Powell PLC,King-Odonnell
+cat_019,cat_005,409,2134,1608,0.044379,0.1917,0.2544,1.098,Cameron-Parsons,Powell PLC
+cat_024,cat_016,406,1656,2059,0.044054,0.2452,0.1972,1.097,Wright-Leblanc,"Patterson, Smith and Jones"
+cat_009,cat_006,417,1822,1925,0.045247,0.2289,0.2166,1.096,"Ellis, Baker and Wright",Skinner-Romero
+cat_018,cat_000,430,2010,1799,0.046658,0.2139,0.239,1.096,"Rodriguez, Figueroa and Sanchez",Phillips Inc
+cat_020,cat_007,460,2063,1877,0.049913,0.223,0.2451,1.095,"Moore, Becker and Carlson","Brewer, Bryant and Hickman"
+cat_006,cat_003,390,1802,1822,0.042318,0.2164,0.2141,1.095,Bush Inc,"Ellis, Baker and Wright"
+cat_015,cat_014,453,1977,1929,0.049154,0.2291,0.2348,1.095,"Anderson, Walls and Duncan",Owens-Daniel
+cat_008,cat_003,426,1802,1989,0.046224,0.2364,0.2142,1.095,Bush Inc,Rodriguez-Graham
+cat_017,cat_000,478,2010,2004,0.051866,0.2378,0.2385,1.094,"Rodriguez, Figueroa and Sanchez",Hancock Inc
+cat_021,cat_002,498,1939,2164,0.054036,0.2568,0.2301,1.094,James LLC,Mitchell-Kim
+cat_012,cat_002,451,1939,1962,0.048937,0.2326,0.2299,1.093,James LLC,Carney-Santos
+cat_010,cat_004,497,2013,2082,0.053928,0.2469,0.2387,1.093,Kelly-Santiago,Burns-Rodriguez
+cat_019,cat_009,367,1925,1608,0.039822,0.1906,0.2282,1.093,Skinner-Romero,Powell PLC
+cat_018,cat_004,429,2013,1799,0.046549,0.2131,0.2385,1.092,Kelly-Santiago,Phillips Inc
+cat_011,cat_004,424,2013,1778,0.046007,0.2106,0.2385,1.092,Kelly-Santiago,Spence PLC
+cat_011,cat_001,408,1937,1778,0.044271,0.2106,0.2295,1.092,Baldwin Ltd,Spence PLC
+cat_006,cat_000,434,2010,1822,0.047092,0.2159,0.2382,1.092,"Rodriguez, Figueroa and Sanchez","Ellis, Baker and Wright"
+cat_020,cat_013,421,1894,1877,0.045681,0.2223,0.2243,1.091,Smith Ltd,"Brewer, Bryant and Hickman"
+cat_023,cat_015,426,1929,1869,0.046224,0.2208,0.2279,1.089,Owens-Daniel,King-Odonnell
+cat_024,cat_010,506,2082,2059,0.054905,0.243,0.2458,1.088,Burns-Rodriguez,"Patterson, Smith and Jones"
+cat_023,cat_000,443,2010,1869,0.048069,0.2204,0.237,1.087,"Rodriguez, Figueroa and Sanchez",King-Odonnell
+cat_017,cat_008,470,1989,2004,0.050998,0.2363,0.2345,1.087,Rodriguez-Graham,Hancock Inc
+cat_014,cat_009,449,1925,1977,0.04872,0.2332,0.2271,1.087,Skinner-Romero,"Anderson, Walls and Duncan"
+cat_023,cat_013,417,1894,1869,0.045247,0.2202,0.2231,1.086,Smith Ltd,King-Odonnell
+cat_018,cat_009,408,1925,1799,0.044271,0.2119,0.2268,1.086,Skinner-Romero,Phillips Inc
+cat_004,cat_000,477,2010,2013,0.051758,0.2373,0.237,1.086,"Rodriguez, Figueroa and Sanchez",Kelly-Santiago
+cat_024,cat_015,467,1929,2059,0.050673,0.2421,0.2268,1.084,Owens-Daniel,"Patterson, Smith and Jones"
+cat_001,cat_000,458,2010,1937,0.049696,0.2279,0.2364,1.084,"Rodriguez, Figueroa and Sanchez",Baldwin Ltd
+cat_016,cat_013,369,1894,1656,0.040039,0.1948,0.2228,1.084,Smith Ltd,Wright-Leblanc
+cat_008,cat_000,470,2010,1989,0.050998,0.2338,0.2363,1.083,"Rodriguez, Figueroa and Sanchez",Rodriguez-Graham
+cat_016,cat_006,354,1822,1656,0.038411,0.1943,0.2138,1.081,"Ellis, Baker and Wright",Wright-Leblanc
+cat_024,cat_019,388,1608,2059,0.042101,0.2413,0.1884,1.08,Powell PLC,"Patterson, Smith and Jones"
+cat_011,cat_006,379,1822,1778,0.041124,0.208,0.2132,1.078,"Ellis, Baker and Wright",Spence PLC
+cat_014,cat_001,447,1937,1977,0.048503,0.2308,0.2261,1.076,Baldwin Ltd,"Anderson, Walls and Duncan"
+cat_022,cat_021,458,2164,1812,0.049696,0.2116,0.2528,1.076,Mitchell-Kim,Preston Ltd
+cat_020,cat_006,399,1822,1877,0.043294,0.219,0.2126,1.075,"Ellis, Baker and Wright","Brewer, Bryant and Hickman"
+cat_020,cat_014,433,1977,1877,0.046984,0.219,0.2307,1.075,"Anderson, Walls and Duncan","Brewer, Bryant and Hickman"
+cat_012,cat_008,455,1989,1962,0.049371,0.2288,0.2319,1.075,Rodriguez-Graham,Carney-Santos
+cat_006,cat_004,427,2013,1822,0.046332,0.2121,0.2344,1.073,Kelly-Santiago,"Ellis, Baker and Wright"
+cat_016,cat_010,401,2082,1656,0.043511,0.1926,0.2421,1.072,Burns-Rodriguez,Wright-Leblanc
+cat_022,cat_016,349,1656,1812,0.037869,0.2107,0.1926,1.072,Wright-Leblanc,Preston Ltd
+cat_015,cat_013,425,1894,1929,0.046115,0.2244,0.2203,1.072,Smith Ltd,Owens-Daniel
+cat_011,cat_010,430,2082,1778,0.046658,0.2065,0.2418,1.071,Burns-Rodriguez,Spence PLC
+cat_014,cat_002,444,1939,1977,0.048177,0.229,0.2246,1.067,James LLC,"Anderson, Walls and Duncan"
+cat_022,cat_014,414,1977,1812,0.044922,0.2094,0.2285,1.065,"Anderson, Walls and Duncan",Preston Ltd
+cat_024,cat_005,507,2134,2059,0.055013,0.2376,0.2462,1.063,Cameron-Parsons,"Patterson, Smith and Jones"
+cat_023,cat_005,459,2134,1869,0.049805,0.2151,0.2456,1.061,Cameron-Parsons,King-Odonnell
+cat_008,cat_004,461,2013,1989,0.050022,0.229,0.2318,1.061,Kelly-Santiago,Rodriguez-Graham
+cat_015,cat_001,429,1937,1929,0.046549,0.2215,0.2224,1.058,Baldwin Ltd,Owens-Daniel
+cat_020,cat_010,448,2082,1877,0.048611,0.2152,0.2387,1.057,Burns-Rodriguez,"Brewer, Bryant and Hickman"
+cat_020,cat_001,416,1937,1877,0.045139,0.2148,0.2216,1.054,Baldwin Ltd,"Brewer, Bryant and Hickman"
+cat_018,cat_010,427,2082,1799,0.046332,0.2051,0.2374,1.051,Burns-Rodriguez,Phillips Inc
+cat_017,cat_011,406,1778,2004,0.044054,0.2283,0.2026,1.05,Spence PLC,Hancock Inc
+cat_011,cat_005,431,2134,1778,0.046766,0.202,0.2424,1.047,Cameron-Parsons,Spence PLC
+cat_024,cat_020,439,1877,2059,0.047635,0.2339,0.2132,1.047,"Brewer, Bryant and Hickman","Patterson, Smith and Jones"
+cat_016,cat_007,388,2063,1656,0.042101,0.1881,0.2343,1.047,"Moore, Becker and Carlson",Wright-Leblanc
+cat_022,cat_020,386,1877,1812,0.041884,0.2056,0.213,1.046,"Brewer, Bryant and Hickman",Preston Ltd
+cat_018,cat_005,435,2134,1799,0.047201,0.2038,0.2418,1.044,Cameron-Parsons,Phillips Inc
+cat_023,cat_008,419,1989,1869,0.045464,0.2107,0.2242,1.039,Rodriguez-Graham,King-Odonnell
+cat_021,cat_018,438,1799,2164,0.047526,0.2435,0.2024,1.037,Phillips Inc,Mitchell-Kim
+cat_018,cat_011,357,1778,1799,0.038737,0.2008,0.1984,1.029,Spence PLC,Phillips Inc
+cat_020,cat_019,333,1608,1877,0.036133,0.2071,0.1774,1.017,Powell PLC,"Brewer, Bryant and Hickman"

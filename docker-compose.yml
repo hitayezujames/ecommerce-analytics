@@ -1,0 +1,42 @@
+# MongoDB + HBase in Docker. Python / Spark keep running in Ubuntu (WSL) and connect to
+# localhost:27017 (MongoDB) and localhost:9090 (HBase Thrift).
+#
+#   docker compose up -d mongodb hbase       # start (HBase needs ~1-2 minutes)
+#   docker compose ps                        # both should say "running" / "Up"
+#   docker compose stop                      # stop (data is kept)
+#
+# Memory is limited on purpose so the stack fits on a 4 GB laptop.
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: mongodb
+    command: ["--wiredTigerCacheSizeGB", "0.25"]   # small cache for small laptops
+    ports: ["27017:27017"]
+    volumes: [mongo-data:/data/db]
+    restart: unless-stopped
+
+  hbase:
+    image: harisekhon/hbase:2.1          # HBase master+regionserver+ZooKeeper, Thrift on 9090
+    platform: linux/amd64
+    container_name: hbase
+    hostname: hbase
+    restart: unless-stopped              # if HBase crashes under memory pressure, Docker restarts it
+    environment:
+      HBASE_HEAPSIZE: 700m
+    ports:
+      - "9090:9090"     # Thrift  (used by happybase)
+      - "16010:16010"   # HBase Master web UI -> http://localhost:16010
+    volumes:
+      - ./hbase:/scripts                 # create_schema.hbase / sample_queries.hbase
+
+  app:                                   # optional: Python + Spark in Docker (large ~5 GB image)
+    build: .
+    container_name: ecommerce-app
+    depends_on: [mongodb, hbase]
+    volumes:
+      - .:/project
+    working_dir: /project
+    profiles: ["app"]                    # not started by "up"; only with "docker compose run app ..."
+
+volumes:
+  mongo-data:
