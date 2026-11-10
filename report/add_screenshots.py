@@ -124,7 +124,10 @@ def build_appendix():
         Paragraph("Appendix A - Execution Evidence (Screenshots)", title),
         Paragraph("Screenshots of the full pipeline (python run_all.py) running on the "
                   "development laptop: Ubuntu on WSL, 2.3 GB RAM, low-memory mode, "
-                  "SCALE = 0.05.", styles["Normal"]),
+                  "SCALE = 0.05 (100,000 sessions, 25,000 orders). The figures quoted in the main "
+                  "report come from the SCALE = 0.1 run, so counts in these screenshots are about half "
+                  "as large; the pipeline and code are identical. Source code: "
+                  "https://github.com/hitayezujames/ecommerce-analytics", styles["Normal"]),
         Spacer(1, 6),
     ]
 
